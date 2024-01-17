@@ -15,6 +15,7 @@ spec:
       containers:
       - name: hello-world
         image: 079613468983.dkr.ecr.eu-central-1.amazonaws.com/hobby_project:1.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
 ---
