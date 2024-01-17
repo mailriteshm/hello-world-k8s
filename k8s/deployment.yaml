@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: 079613468983.dkr.ecr.eu-central-1.amazonaws.com/hello-world-k8s:latest
+        image: 079613468983.dkr.ecr.eu-central-1.amazonaws.com/hobby_project:latest
         ports:
         - containerPort: 3000
 ---
